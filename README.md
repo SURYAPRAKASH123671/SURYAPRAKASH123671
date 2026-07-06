@@ -25,7 +25,7 @@ I build portfolio projects as real systems: authentication, persistence, API des
 | Project | System Type | Engineering Highlights | Links |
 | --- | --- | --- | --- |
 | **CollabBoard** | Real-time collaboration board | Multi-board Kanban, JWT auth, MySQL persistence, authenticated WebSocket updates, drag-and-drop ordering, comments, activity feed, presence, Docker setup | [Repo](https://github.com/SURYAPRAKASH123671/collabboard) · [Demo](https://collabboard-silk.vercel.app/) |
-| **Nexora** | Full-stack e-commerce platform | Catalog, cart, orders, admin flows, email verification, password reset, JWT security, profile/address flows, invoice/email logic, layered backend architecture | [Frontend](https://github.com/SURYAPRAKASH123671/nexora-frontend) · [Backend](https://github.com/SURYAPRAKASH123671/nexora-ecommerce) |
+| **Nexora** | Full-stack e-commerce platform | Catalog, cart, orders, admin flows, email verification, password reset, JWT security, profile/address flows, invoice/email logic, layered backend architecture | [Repo](https://github.com/SURYAPRAKASH123671/nexora-ecommerce) |
 | **Luxury Car Inventory** | Inventory and finance web app | Next.js App Router, TypeScript, responsive inventory browsing, vehicle detail pages, filtering, EMI calculator, Vercel deployment | [Repo](https://github.com/SURYAPRAKASH123671/Luxury-car-inventory-platform) · [Demo](https://cars15.vercel.app/) |
 
 ---
