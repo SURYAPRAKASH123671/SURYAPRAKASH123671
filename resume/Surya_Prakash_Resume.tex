@@ -1,0 +1,195 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+
+\definecolor{linkblue}{RGB}{0,82,155}
+\definecolor{deepgray}{RGB}{40,40,40}
+\definecolor{rulegray}{RGB}{120,120,120}
+
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{array}
+
+\geometry{top=0.58in,bottom=0.58in,left=0.62in,right=0.62in}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\hypersetup{
+  colorlinks=true,
+  urlcolor=linkblue,
+  linkcolor=linkblue
+}
+\urlstyle{same}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{0pt}
+\renewcommand{\arraystretch}{1.18}
+
+\titleformat{\section}
+  {\large\bfseries\scshape\color{deepgray}}
+  {}{0em}{}[\color{rulegray}\titlerule]
+\titlespacing{\section}{0pt}{13pt}{7pt}
+
+\setlist[itemize]{
+  leftmargin=0.17in,
+  itemsep=5pt,
+  topsep=4pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\newcommand{\resumeItem}[1]{\item \small{#1}}
+\newcommand{\skillRow}[2]{\textbf{#1:} & #2 \\[2pt]}
+\newcommand{\resumeLink}[2]{\href{#1}{\textcolor{linkblue}{\underline{#2}}}}
+\newcommand{\projectHeader}[4]{
+  \vspace{4pt}
+  \textbf{#1} \hfill {\small \emph{#2}} \\
+  {\footnotesize #3}
+  \vspace{-1pt}
+}
+\newcommand{\roleHeader}[4]{
+  \textbf{#1} \hfill {\small #2} \\
+  \textit{\small #3} \hfill \textit{\small #4}
+  \vspace{-1pt}
+}
+
+\begin{document}
+
+\begin{center}
+  {\Huge \scshape Surya Prakash K.S} \\[3pt]
+  {\small \textbf{Full-Stack Java Developer | Java | Spring Boot | React | MySQL | JWT | Microservices}} \\[2pt]
+  \small
+  Chennai, India \,|\, \resumeLink{tel:+919150357320}{+91 91503 57320} \,|\, 
+  \resumeLink{mailto:suryakannan32123@gmail.com}{suryakannan32123@gmail.com} \,|\, 
+  \resumeLink{https://github.com/SURYAPRAKASH123671}{GitHub} \,|\, 
+  \resumeLink{https://www.linkedin.com/in/surya-prakash-k-s-25b177242/}{LinkedIn} \,|\, Available Immediately
+\end{center}
+\vspace{-4pt}
+
+\section*{Professional Summary}
+\small Full-Stack Java Developer building secure Spring Boot applications with React and Next.js frontends. Delivered 4 full-stack products spanning real-time collaboration, e-commerce, microservices, and an Indian used-car marketplace, supported by JWT/RBAC, Docker, automated tests, and live deployments. Seeking a full-time role developing reliable, user-focused web solutions.
+
+\vspace{2pt}
+\small \textbf{Selected Highlights:} 4 recruiter-ready applications, 55+ backend routes, 22 JPA entities, 22 backend tests, WebSocket and STOMP, Spring Cloud, invoice PDFs, Docker Compose, GitHub Actions, and Vercel.
+
+\section*{Core Skills}
+\small
+\begin{tabularx}{\textwidth}{@{}>{\bfseries}p{1.22in}X@{}}
+Backend & Java, Spring Boot, Spring Security, JWT, RBAC, REST APIs, Spring Data JPA, Hibernate \\
+Frontend & React.js, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS \\
+Database & MySQL, schema design, relational modeling, JPA mapping, H2 test database \\
+Architecture & Microservices basics, Spring Cloud Gateway, Eureka, WebSocket/STOMP, API design, OOP, SOLID
+\end{tabularx}
+
+\section*{Professional Experience}
+\roleHeader
+  {Full-Stack Java Developer \,|\, Personal Projects \& Self-Directed Development}
+  {Jul 2023 -- Present}
+  {Java full-stack development, deployment, testing, and role preparation}
+  {Chennai, India}
+\begin{itemize}
+  \resumeItem{Delivered 4 end-to-end applications across collaboration, e-commerce, order processing, inventory, finance, and customer booking workflows, each with source code and a recruiter-accessible interface.}
+  \resumeItem{Engineered 55+ backend routes and 22 JPA entities with layered Spring Boot services, DTO boundaries, validation, and role-based access rules.}
+  \resumeItem{Created production-style flows including JWT login, admin/customer permissions, authenticated WebSockets, booking management, order emails, and invoice PDFs.}
+  \resumeItem{Automated build and validation with Docker Compose, GitHub Actions, Vercel deployments, and 22 backend tests spanning authentication, inventory, booking, ordering, email, and PDF workflows.}
+\end{itemize}
+\vspace{0pt}
+
+\section*{Engineering Projects}
+
+\projectHeader
+  {CollabBoard - Real-Time Collaboration Platform}
+  {React, Spring Boot, MySQL, JWT, STOMP, Docker}
+  {\resumeLink{https://github.com/SURYAPRAKASH123671/collabboard}{GitHub} \,|\, \resumeLink{https://collabboard-silk.vercel.app/}{Live Demo}}
+  {}
+\begin{itemize}
+  \resumeItem{Developed a JWT-secured real-time collaboration platform with authenticated STOMP updates, board-level authorization, and a 7-entity MySQL model.}
+  \resumeItem{Designed 8 REST routes for workspaces, members, lists, cards, comments, and activity logs using Spring Boot, JPA, and transactional services.}
+  \resumeItem{Implemented drag-and-drop functionality with real-time STOMP synchronization, allowing multiple users to see changes instantly without page refresh.}
+  \resumeItem{Validated delivery with Docker Compose and GitHub Actions checks covering 8 backend tests, frontend build, and container startup.}
+\end{itemize}
+\vspace{2pt}
+
+\projectHeader
+  {Nexora - Full-Stack E-Commerce Platform}
+  {React.js, Spring Boot, MySQL, Spring Security, JWT}
+  {\resumeLink{https://github.com/SURYAPRAKASH123671/nexora-ecommerce}{GitHub} \,|\, \resumeLink{https://nexora-web-virid.vercel.app/}{Web Demo} \,|\, \resumeLink{https://nexora-mobile.vercel.app/}{Mobile Demo}}
+  {}
+\begin{itemize}
+  \resumeItem{Developed an end-to-end e-commerce platform with catalog, cart, wishlist, checkout, order management, admin workflows, emails, and invoice PDFs.}
+  \resumeItem{Structured 27+ REST mappings across 6 JPA entities, separating customer, admin, profile, product, category, and order responsibilities.}
+  \resumeItem{Secured account and operations workflows with JWT/RBAC, email verification, password reset, and protected admin access.}
+  \resumeItem{Verified high-risk flows with 8 backend tests for JWT, profile responses, email builders, and invoice PDF generation.}
+\end{itemize}
+\vspace{2pt}
+
+\newpage
+
+\small \textbf{Surya Prakash K.S} \hfill Full-Stack Java Developer \\
+\vspace{-4pt}
+\section*{Engineering Projects Continued}
+
+\projectHeader
+  {OrderFlow - Microservices Order Processing System}
+  {Spring Boot, Spring Cloud Gateway, Eureka, MySQL, Docker, Prometheus}
+  {\resumeLink{https://github.com/SURYAPRAKASH123671/orderflow}{GitHub} \,|\, \resumeLink{https://orderflow-console-surya.vercel.app}{Live Demo}}
+  {}
+\begin{itemize}
+  \resumeItem{Architected a Spring Cloud microservices system with API Gateway, Eureka discovery, order, inventory, notification, and shared event modules.}
+  \resumeItem{Coordinated order creation and inventory decrement across services through gateway routing, service discovery, fallback endpoints, and Dockerized startup.}
+  \resumeItem{Modeled 4 JPA entities and 7 REST routes across order/inventory services, keeping stock changes and order state behind clear service boundaries.}
+  \resumeItem{Instrumented validation and visibility with 4 backend tests and Prometheus configuration for basic service-health monitoring.}
+\end{itemize}
+\vspace{0pt}
+
+\projectHeader
+  {Cars 15 - Indian Used-Car Marketplace}
+  {Next.js, Spring Boot, Spring Security, JWT, MySQL/H2, Docker}
+  {\resumeLink{https://github.com/SURYAPRAKASH123671/Luxury-car-inventory-platform}{GitHub} \,|\, \resumeLink{https://cars15.vercel.app/}{Live Demo}}
+  {}
+\begin{itemize}
+  \resumeItem{Launched a Vercel-hosted marketplace presenting 21 India-market vehicles across hatchback, sedan, SUV, and MPV body styles with model-matched imagery and responsive browsing.}
+  \resumeItem{Delivered comparison, wishlist, recently viewed cars, advanced filters, EMI and ownership-cost tools, printable specifications, test-drive booking, and price alerts.}
+  \resumeItem{Engineered JWT login/registration, role-based admin access, and Spring Data JPA models for users, vehicles, wishlists, bookings, and alerts behind a layered REST API.}
+  \resumeItem{Enabled inventory CRUD, booking status updates, analytics, seeded demo accounts, and connected Next.js dashboards for complete recruiter testing.}
+  \resumeItem{Standardized local and CI delivery through H2 development, MySQL-ready configuration, Docker Compose, GitHub Actions, production Next.js builds, and MockMvc integration tests.}
+\end{itemize}
+
+\section*{Tools \& Technologies}
+\small
+\begin{tabularx}{\textwidth}{@{}>{\bfseries}p{1.22in}X@{}}
+Delivery & Docker, Docker Compose, GitHub Actions, CI/CD workflows, Vercel \\
+Engineering & Maven, Git, Postman, Prometheus, Swagger/OpenAPI, JUnit, MockMvc
+\end{tabularx}
+
+\section*{Education}
+\roleHeader
+  {Panimalar Institute of Technology, Anna University}
+  {2019 -- 2023}
+  {Bachelor of Technology in Information Technology}
+  {CGPA: 7.6/10}
+
+\section*{Delivery \& Engineering Practices}
+\begin{itemize}
+  \resumeItem{Applied JWT/RBAC, protected admin and customer routes, board-level authorization, input validation, global exception handling, and authenticated WebSocket handshakes.}
+  \resumeItem{Maintained environment-based configuration, seeded local data, Dockerized startup, CI build checks, technical READMEs, and working live-demo links for repeatable review.}
+  \resumeItem{Backed high-risk paths with 22 tests across authentication, profiles, boards, orders, inventory, bookings, email generation, and invoice PDF output.}
+  \resumeItem{Used layered architecture, DTO boundaries, transactional services, relational modeling, and clear module ownership to keep feature additions testable and maintainable.}
+\end{itemize}
+
+\section*{Certification \& Ongoing Learning}
+\small \textbf{Complete Java Programming} \,|\, Udemy \hfill \textit{\small Java, OOP, collections, exception handling}
+
+\vspace{4pt}
+\small Regular DSA practice focused on arrays, strings, collections, recursion, searching, sorting, and problem decomposition.
+
+\section*{Selected Engineering Outcomes}
+\begin{itemize}
+  \resumeItem{Reduced reviewer setup friction by packaging multi-service environments with Docker Compose, environment templates, seeded demo accounts, and documented startup commands.}
+  \resumeItem{Improved workflow reliability by validating authentication, inventory, booking, order, email, and PDF paths with focused JUnit and MockMvc coverage.}
+\end{itemize}
+
+\end{document}
