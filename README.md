@@ -1,59 +1,65 @@
-# Surya Prakash K S
+# Surya Prakash K.S.
 
-**Full-Stack Java Developer** building secure, database-backed, production-style web applications with **Spring Boot, React, MySQL, JWT, REST APIs, and WebSockets**.
+**Entry-Level Java / Spring Boot Developer | Technical & Application Support**
 
-[Resume](resume/Surya_Prakash_Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/surya-prakash-k-s-25b177242) · [GitHub](https://github.com/SURYAPRAKASH123671) · [Email](mailto:suryakannan32123@gmail.com)
+B.Tech Information Technology graduate building Java/Spring Boot applications with REST APIs, MySQL, React, authentication, and automated tests. My support-relevant practice comes from investigating API, authorization, database, configuration, and integration behavior in self-directed projects. Targeting junior backend/full-stack and technical/application support roles.
 
----
+[Resume (PDF)](resume/Surya_Prakash_Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/surya-prakash-k-s-25b177242/) · [Email](mailto:suryakannan32123@gmail.com) · [GitHub](https://github.com/SURYAPRAKASH123671)
 
 ## Engineering Focus
 
-I build portfolio projects as real systems: authentication, persistence, API design, role-based flows, deployment notes, testing, documentation, and user-facing demos. My current work is focused on full-stack Java applications where the backend is not just a data store, but the main engineering layer.
+| Area | Hands-on technologies and practices |
+|---|---|
+| Backend | Java 17, Spring Boot, Spring MVC, Spring Security, REST APIs, Spring Data JPA / Hibernate |
+| Frontend | React, JavaScript, TypeScript |
+| Data | MySQL, H2, SQL, relational transactions |
+| Application behavior | JWT authentication, role-based access control, request validation, WebSockets, API integration |
+| Build and delivery | Maven, Git/GitHub, JUnit 5, MockMvc, Docker, Docker Compose, GitHub Actions |
+| Support-oriented work | Debugging project behavior, reproducing issues, checking errors and validating changes with tests |
 
-| Strength | What I Practice |
-| --- | --- |
-| Backend Engineering | Spring Boot APIs, service-layer design, Spring Security, JWT, validation, exception handling |
-| Frontend Engineering | React interfaces, API integration, state flow, responsive layouts, dashboard-style UI |
-| Data & Persistence | MySQL, JPA/Hibernate, entity relationships, repository patterns |
-| Real-Time Systems | STOMP over WebSocket, board-level subscriptions, live updates, presence indicators |
-| Delivery | Git, Docker, Docker Compose, Vercel, environment-based configuration, README-first documentation |
+## Featured Projects
 
----
+### [CollabBoard](https://github.com/SURYAPRAKASH123671/collabboard)
+Real-time collaboration board with authenticated REST and STOMP WebSocket flows, MySQL persistence, and member-scoped access control.
 
-## Selected Work
+**Java 17 · Spring Boot · React · MySQL · JWT · STOMP · Docker**
+[Repository](https://github.com/SURYAPRAKASH123671/collabboard) · [Frontend demo](https://collabboard-silk.vercel.app/)
 
-| Project | System Type | Engineering Highlights | Links |
-| --- | --- | --- | --- |
-| **CollabBoard** | Real-time collaboration board | Multi-board Kanban, JWT auth, MySQL persistence, authenticated WebSocket updates, drag-and-drop ordering, comments, activity feed, presence, Docker setup | [Repo](https://github.com/SURYAPRAKASH123671/collabboard) · [Demo](https://collabboard-silk.vercel.app/) |
-| **Nexora** | Full-stack e-commerce platform | Catalog, cart, orders, admin flows, email verification, password reset, JWT security, profile/address flows, invoice/email logic, layered backend architecture | [Repo](https://github.com/SURYAPRAKASH123671/nexora-ecommerce) · [Demo](https://nexora-web-virid.vercel.app/) |
-| **OrderFlow** | Microservices order-processing system | Spring Cloud Gateway, Eureka discovery, order and inventory services, fallback routes, Dockerized startup, Prometheus configuration | [Repo](https://github.com/SURYAPRAKASH123671/orderflow) · [Demo](https://orderflow-console-surya.vercel.app/) |
-| **Cars 15** | Indian used-car marketplace | 21 model-matched vehicles, body-style categories, JWT/RBAC, comparison, wishlist, test-drive booking, EMI tools, admin analytics, Docker, CI | [Repo](https://github.com/SURYAPRAKASH123671/Luxury-car-inventory-platform) · [Demo](https://cars15.vercel.app/) |
+The public demo uses frontend demo mode; the complete Spring Boot, MySQL, and WebSocket stack is available to run locally.
 
----
+### [Nexora E-Commerce](https://github.com/SURYAPRAKASH123671/nexora-ecommerce)
+Full-stack commerce project covering customer accounts, catalog, checkout, order lifecycle, administration, and payment workflows.
 
-## Technical Stack
+**Java 17 · Spring Boot · React · MySQL · Spring Security · JUnit 5**
+[Repository](https://github.com/SURYAPRAKASH123671/nexora-ecommerce) · [Web storefront](https://nexora-web-virid.vercel.app/) · [Deployment notes](https://github.com/SURYAPRAKASH123671/nexora-ecommerce/blob/main/DEPLOYMENT.md)
 
-```text
-Backend      Java, Spring Boot, Spring Security, Spring MVC, Spring Data JPA, Hibernate
-Frontend     React, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS
-Database     MySQL, PostgreSQL, MongoDB
-Auth/API     JWT, REST APIs, role-based access flows
-Real-time    WebSocket, STOMP
-Tools        Git, Maven, Gradle, Docker, Docker Compose, Postman, Vercel
-```
+### [OrderFlow](https://github.com/SURYAPRAKASH123671/orderflow)
+Local multi-service order workflow using Kafka events, Redis, MySQL, gateway routing, and Prometheus/Grafana configuration.
 
----
+**Java 17 · Spring Boot · Kafka · Redis · MySQL · Docker Compose**
+[Repository](https://github.com/SURYAPRAKASH123671/orderflow) · [Console demo](https://orderflow-console-surya.vercel.app/)
 
-## Portfolio Signals
+The Vercel console runs in demo mode; the service stack is started locally with Docker Compose.
 
-- Projects include real authentication and database persistence, not only static UI.
-- READMEs are written for reproducibility: setup, architecture, features, verification, and deployment context.
-- CollabBoard demonstrates real-time multi-user behavior, a stronger interview story than standard CRUD.
-- Nexora demonstrates full-stack business workflows across customer and admin use cases.
-- I keep broken demo links off the profile and prefer honest, working project presentation.
+### [Cars 15](https://github.com/SURYAPRAKASH123671/Luxury-car-inventory-platform)
+Car inventory and finance application with a Next.js/React interface and a Spring Boot API.
 
----
+**TypeScript · React · Spring Boot · MySQL · JWT · Docker**
+[Repository](https://github.com/SURYAPRAKASH123671/Luxury-car-inventory-platform) · [Frontend demo](https://cars15.vercel.app/)
 
-## Current Direction
+## Engineering Capabilities
 
-Preparing for **Full-Stack Java / Spring Boot / React Developer** roles while strengthening production-readiness across my projects: tests, deployment, observability, backend hosting, and cleaner system documentation.
+- Build REST endpoints and connect client workflows to Spring services and relational persistence.
+- Implement JWT authentication and role or membership checks.
+- Use transactions and validation around application workflows.
+- Write JUnit 5 / MockMvc tests and run builds through GitHub Actions.
+- Containerize applications and configure local multi-service environments with Docker Compose.
+- Investigate API, authorization, persistence, and integration behavior during project development.
+
+## Current Focus
+
+Strengthening Linux command-line, SQL troubleshooting, application-log investigation, networking, and incident-analysis fundamentals for support-oriented roles. These are learning priorities, not claimed professional support experience.
+
+## Contact
+
+[Email](mailto:suryakannan32123@gmail.com) · [LinkedIn](https://www.linkedin.com/in/surya-prakash-k-s-25b177242/) · [GitHub](https://github.com/SURYAPRAKASH123671)
