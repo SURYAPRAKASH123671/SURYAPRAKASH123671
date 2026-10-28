@@ -15,7 +15,7 @@ B.Tech in Information Technology graduate building independent Java/Spring Boot 
 | Data | MySQL, H2, SQL, relational transactions |
 | Application behavior | JWT authentication, role-based access control, request validation, WebSockets, API integration |
 | Build and delivery | Maven, Git/GitHub, JUnit 5, MockMvc, Docker, Docker Compose, GitHub Actions |
-| Support-oriented work | Debugging project behavior, reproducing issues, checking errors and validating changes with tests |
+| Debugging & verification | Reproducing project issues, inspecting behavior, and checking fixes with tests |
 
 ## Featured Projects
 
