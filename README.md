@@ -1,10 +1,10 @@
 # Surya Prakash K.S.
 
-**Entry-Level Java / Spring Boot Developer | Technical & Application Support**
+**Entry-Level Software Engineer | Java Backend & Full-Stack**
 
-B.Tech Information Technology graduate building Java/Spring Boot applications with REST APIs, MySQL, React, authentication, and automated tests. My support-relevant practice comes from investigating API, authorization, database, configuration, and integration behavior in self-directed projects. Targeting junior backend/full-stack and technical/application support roles.
+B.Tech in Information Technology graduate building independent Java/Spring Boot and React projects. Hands-on work includes REST APIs, JWT-based authorization, MySQL persistence, transactional workflows, real-time collaboration, automated tests, Docker, and CI. Seeking entry-level Java backend and junior full-stack software engineering roles.
 
-[Resume (PDF)](resume/Surya_Prakash_Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/surya-prakash-k-s-25b177242/) · [Email](mailto:suryakannan32123@gmail.com) · [GitHub](https://github.com/SURYAPRAKASH123671)
+[Portfolio](https://surya-portfolio-eight-kappa.vercel.app/) · [Resume (PDF)](resume/Surya_Prakash_Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/surya-prakash-k-s-25b177242/) · [Email](mailto:ks.suryaprakash.in@gmail.com) · [GitHub](https://github.com/SURYAPRAKASH123671)
 
 ## Engineering Focus
 
@@ -58,8 +58,8 @@ Car inventory and finance application with a Next.js/React interface and a Sprin
 
 ## Current Focus
 
-Strengthening Linux command-line, SQL troubleshooting, application-log investigation, networking, and incident-analysis fundamentals for support-oriented roles. These are learning priorities, not claimed professional support experience.
+Building maintainable Java services and full-stack features through independent projects, with emphasis on API correctness, authorization, transactional workflows, automated tests, and reproducible delivery.
 
 ## Contact
 
-[Email](mailto:suryakannan32123@gmail.com) · [LinkedIn](https://www.linkedin.com/in/surya-prakash-k-s-25b177242/) · [GitHub](https://github.com/SURYAPRAKASH123671)
+[Email](mailto:ks.suryaprakash.in@gmail.com) · [Portfolio](https://surya-portfolio-eight-kappa.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/surya-prakash-k-s-25b177242/) · [GitHub](https://github.com/SURYAPRAKASH123671)
